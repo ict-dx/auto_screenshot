@@ -71,7 +71,8 @@ def image_change_rate(img1, img2):
 # -------------------------------------
 # メイン処理
 # -------------------------------------
-save_dir = "C:\\Users\\ueda\\Documents\\screenshot"
+#以下に保存するファイルパスを記入
+save_dir = ""
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
 
